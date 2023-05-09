@@ -1,0 +1,295 @@
+
+*{
+    margin: 1px;
+}
+
+
+body{
+font-family: 'Roboto',Arial,Helvetica,sans-serif;
+font-size: 18px;
+line-height: 32px;
+color: #00233b;
+font-weight: 400;
+
+
+}
+
+
+p{
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 17px;    
+    color: #00233b;
+}
+
+h3{ /*Modifica Ingenieria de sistemas*/
+
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 37px;
+    line-height: 58px;
+    font-weight: 900;
+    color: #00233b;
+}
+
+
+ .virtual{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.tres{
+    margin-top:20px ;
+    text-align: center;   
+    
+}
+
+.virtual span {
+font-size: 14px;
+line-height: 25px;
+color: #f60;
+border: 1px solid #f60;
+padding: 5px 41px;
+border-radius: 18px;
+background: #fff;
+
+}
+
+
+
+.contenedor1 { /*Contenedor Primera Parte*/
+display: grid;
+gap: 10px;
+padding: 10px;
+grid-template-columns: auto auto ;
+}
+
+
+.datos{ /*Boton de Datos para mas informacion*/
+  
+    min-width: 276px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 18px 32px;
+    background-color: #f60;
+    background-size: cover;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px; /*Espaciado entre caracteres*/
+    text-align: center;
+    box-shadow: 0 3px 9px rgba(0,0,0,.2); /*Sombra Boton*/
+    display: inline-block;
+    border-radius: 35px;
+    letter-spacing: 1px;
+  }
+    
+.homologar{ /*Boton de Homologar*/
+    min-width: 200px;
+    margin-bottom: auto;
+    padding: 18px 32px;
+    border: 1px solid #f60;
+    border-radius: 35px;
+    background-color: #fff;
+    background-size: cover;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 26px;
+    color: #00233b;
+    text-decoration: none solid rgb(0,35,59);
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+.imagen{ /*Centrar Imagen*/
+    text-align: center;
+}
+
+.informacion{
+    background-color:#617989;    
+}
+
+.informacion ul {
+    margin: 0;
+    padding: 15px 30px 5px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.informacion li {
+font-size: 16px;
+color: #fff;
+padding-right: 19px;
+line-height: 25px;
+padding-bottom: 10px;
+}
+
+.informacion span {
+font-weight: 700;
+margin-right: 5px;
+}
+
+.informacion a {
+      color: #fff;
+}
+
+
+.titulaciones{
+   
+    text-align: center;
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    line-height: 58px;
+    font-weight: 900; /*grosor de la letra*/
+    color: #00233b;
+}
+
+.contenedor2{ /*Contenedor Titulos*/
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+}
+
+.tarjeta{ /*Diseño Tarjeta*/
+background-color: #f8f7f5;
+border-radius: 16px;
+padding: 30px;
+text-align: center;
+}
+
+.descripcion{
+text-transform: uppercase; /*Mayusculas*/
+font-size: 20px; 
+line-height: 30px; 
+letter-spacing: 2px;
+margin: 0 0 16px 0;
+min-height: 60px;
+align-items: center;
+justify-content: center;
+}
+
+.resolucion{
+margin: 0 0 8px 0;
+font-size: 12px;
+line-height: 18px;
+}
+
+.tarjeta a {
+    color: #f60;
+text-decoration: underline;
+transition: all 0.3s ease;
+}
+
+.contenedor3{
+    gap: 10px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.campo{
+background-color: #fff;
+border-radius: 16px;
+font-size: 15px; 
+line-height: 30px; 
+}
+
+.campo img{
+    text-align: center;
+    width: 97%;
+}
+
+
+.contenedor4{
+    padding: 1px;
+    background-color: #f8f7f5;
+}
+.contenedor4 h3{
+    text-align: center;
+}
+.contenedor p{
+text-align: center;
+}
+
+.contenedor5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    gap: 10px;
+}
+
+
+.planestudios{
+    width: 200px;
+    height: 28px;
+    background: #446d89;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+    text-decoration: none;
+    padding: 8px 12px 12px 75px;
+    max-width: 100%;
+    
+    }
+
+.planestudios a {
+    color: #fff;
+}
+
+.piepagina{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #4e5357;
+    padding: 10px;
+    color: #f8f7f5;
+}
+
+.piepagina img{
+    width: 70%;
+}
+
+.piepagina p {
+font-family: 'Roboto',Arial,Helvetica,sans-serif;
+font-size: 12px;
+line-height: 32px;
+color:#f8f7f5;
+font-weight: 400;
+}
+
+.piepagina a {
+    color: #f60;
+}
+
+.piepagina hr {
+    border: 0 none;
+    background-color:#fff;
+    height: 1px;
+}
+
+.otros{
+    color: #f60;
+}
+
+.otros  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+/*Pantallas hasta 767px*/
+@media only screen and (max-width:1888px)   and (min-width:1024px){
+
+   *{
+    margin:10px    
+   }
+
+    
+}
